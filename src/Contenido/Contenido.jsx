@@ -170,7 +170,12 @@ function Contenido() {
                 <i className="bi bi-activity"></i>
                 <span>{idioma.traducciones[1][miIdioma]}</span>
               </div>
-              <button className="contenLinkPoryecto" onClick={() => window.open("https://github.com/mpicado30750/Empana-tica_Web")} >
+              <button
+                className="contenLinkPoryecto"
+                onClick={() =>
+                  window.open("https://github.com/mpicado30750/Empana-tica_Web")
+                }
+              >
                 <i className="bi bi-github"></i>
                 <span>Github</span>
               </button>
@@ -218,7 +223,12 @@ function Contenido() {
                 <i className="bi bi-slash-circle"></i>
                 <span>{idioma.traducciones[4][miIdioma]}</span>
               </div>
-              <button className="contenLinkPoryecto" onClick={() => window.open("https://github.com/josue674/Sistema_Veterinario")}>
+              <button
+                className="contenLinkPoryecto"
+                onClick={() =>
+                  window.open("https://github.com/josue674/Sistema_Veterinario")
+                }
+              >
                 <i className="bi bi-github"></i>
                 <span>Github</span>
               </button>
@@ -263,11 +273,21 @@ function Contenido() {
                 <i className="bi bi-slash-circle"></i>
                 <span>{idioma.traducciones[4][miIdioma]}</span>
               </div>
-              <button className="contenLinkPoryecto" onClick={() => window.open("https://github.com/josue674/RandomRecipeAI")}>
+              <button
+                className="contenLinkPoryecto"
+                onClick={() =>
+                  window.open("https://github.com/josue674/RandomRecipeAI")
+                }
+              >
                 <i className="bi bi-github"></i>
                 <span>Github</span>
               </button>
-              <button className="contenLinkPoryecto" onClick={() => window.open("https://randomrecipeai.netlify.app")}>
+              <button
+                className="contenLinkPoryecto"
+                onClick={() =>
+                  window.open("https://randomrecipeai.netlify.app")
+                }
+              >
                 <i className="bi bi-globe2"></i>
                 <span>Web</span>
               </button>
