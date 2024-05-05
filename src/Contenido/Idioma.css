@@ -1,0 +1,28 @@
+.Idioma {
+  grid-area: Idioma;
+  /* background: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IdiomaContent {
+  border-radius: 12px;
+  font-size: 25px;
+  width: 50px;
+  border: 3px solid rgb(42, 41, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IdiomaContent:hover {
+  background-color: rgba(115, 115, 115, 0.576);
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+@media (width <= 1024px) {
+  .Idioma {
+    padding-right: 10px;
+  }
+}

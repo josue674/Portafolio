@@ -1,0 +1,109 @@
+{
+    "traducciones": [
+      {
+        "es": "Copiado",
+        "en": "Copied"
+      },
+      {
+        "es": "Activo",
+        "en": "Active"
+      },
+      {
+        "es": "Empana-tica es una empresa que se dedica a la elaboración de comida y su distribución a diferentes sucursales, nuestra investigación nos dio como resultado que ellos están teniendo un problema a la hora de administrar su inventario y gestionar sus recursos humanos.",
+        "en": "Empana-tica is a company that is dedicated to the preparation of food and its distribution to different branches, our research resulted in them having a problem when it comes to managing their inventory and human resources."
+      },
+      {
+        "es": "Administración Veterinaria",
+        "en": "Veterinary Administration"
+      },
+      {
+        "es": "Finalizado",
+        "en": "Finished"
+      },
+      {
+        "es": "Este es un proyecto que tuvimos que realizar en el transcurso de un cuatrimestre en el cual se nos pedía realizar un sistema de gestión de una veterinaria, en el cual se podía registrar las mascotas, sus dueños, sus servicios, etc. Tuvimos que realizar el desarrollo desde cero desde el punto de crear la base de datos.",
+        "en": "This is a project that we had to carry out over the course of a semester in which we were asked to create a management system for a veterinary clinic, where we could register pets, their owners, their services, etc. We had to develop everything from scratch, including creating the database."
+      },
+      {
+        "es": "Random Recipe",
+        "en": "Random Recipe"
+      },
+      {
+        "es": "Este es un proyecto para realizar una consulta a la API de OpenAI, la cual lo que hace es encuar el prompt que se ingresa en los campos de texto y hace la consulta a la API y cuando retorna los resultados el sistema trata los datos para mostrar la información deseada.",
+        "en": "This is a project to make a query to the OpenAI API, which takes the prompt entered in the text fields and queries the API, then the system processes the data to display the desired information."
+      },
+      {
+        "es": "Universidad Fidélitas",
+        "en": "Fidélitas University"
+      },
+      {
+        "es": "Ingeniería en Sistemas",
+        "en": "Systems Engineering"
+      },
+      {
+        "es": "Scrum Study",
+        "en": "Scrum Study"
+      },
+      {
+        "es": "Scrum Fundamentals",
+        "en": "Scrum Fundamentals"
+      },
+      {
+        "es": "Udemy",
+        "en": "Udemy"
+      },
+      {
+        "es": "Universidad de ASP .Net",
+        "en": "ASP .Net University"
+      },
+      {
+        "es": "Aprendiendo",
+        "en": "Learning"
+      },
+      {
+        "es": "Sobre mi",
+        "en": "About Me"
+      },
+      {
+        "es": "Me llamo Walter Josué pero mis amigos me llaman Jo, soy de Costa Rica. Estoy terminando mis estudios de ingeniería en sistemas. Actualmente estoy enfocado en el desarrollo de aplicaciones administrativas con .Net Core 8.",
+        "en": "My name is Walter Josué but my friends call me Jo, I am from Costa Rica. I am finishing my studies in systems engineering. Currently, I am focused on developing administrative applications with .Net Core 8."
+      },
+      {
+        "es": "Entre mis aptitudes destaco que durante el grado superior, me esfuerzo para que el código que realizo esté lo más optimizado y limpio posible, ya que soy creyente de que el mejor código es el más optimizado y fácil de comprender por otros programadores.",
+        "en": "Among my skills, I highlight that during my higher education, I strive to make the code I write as optimized and clean as possible, as I believe that the best code is the most optimized and easy to understand by other programmers."
+      },
+      {
+        "es": "Cuento con experiencia desarrollando sistemas de software administrativos con .Net Core, en este momento me encuentro realizando un sistema de administración para una empresa costarricense llamada Empanadita S.A, como parte de mi programa de formación como ingeniero.",
+        "en": "I have experience developing administrative software systems with .Net Core, at the moment I am developing a management system for a Costa Rican company called Empanadita S.A, as part of my engineering training program."
+      },
+      {
+        "es": "👋 !Hola¡, yo soy",
+        "en": "👋 Hello, I am”."
+      },
+      {
+        "es": "Walter Josue",
+        "en": "Walter Josue"
+      },
+      {
+        "es": " Soy una programador",
+        "en": "I am a programmer"
+      },
+      {
+        "es": "Backend de .Net",
+        "en": ".Net Backend"
+      },
+      {
+        "es": "intentado programar en el fronend un interfaz bonita con",
+        "en": "tried to program in the fronend a nice interface with"
+      },
+      {
+        "es": "React",
+        "en": "React"
+      },
+      {
+        "es": "sin morir en el intento.",
+        "en": "without dying in the attempt."
+      }
+    ]
+  }
+  

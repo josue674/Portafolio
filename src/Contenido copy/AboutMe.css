@@ -1,0 +1,23 @@
+.AboutMe {
+  grid-area: AboutMe;
+  background: gray;
+}
+
+.contentInformacionAbout {
+  display: flex;
+  width: 100%;
+  /* background: #4fc3dc; */
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contenedorAbout {
+  max-width: 600px;
+  display: flex;
+  /* background: #ff2d75; */
+  /* gap: 1px; */
+  flex-direction: column;
+}

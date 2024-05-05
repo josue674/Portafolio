@@ -1,0 +1,52 @@
+.Aprendiendo {
+  grid-area: Aprendiendo;
+  display: flex;
+  place-content: center;
+  /* background: green; */
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+
+.tituloAprendiendo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(79, 195, 220);
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorAprendiendo {
+  max-width: 200px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentIconos {
+  display: flex;
+  width: 100%;
+  /* background: #4fc3dc; */
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.IconosAprendiendo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 50px;
+  height: 50px;
+}

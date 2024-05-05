@@ -1,0 +1,97 @@
+.Formacion {
+  grid-area: Formacion;
+  /* background: green; */
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorFormacion {
+  /* background: #4fc3dc; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  /* padding: ; */
+  /* height: 100%;
+  width: 100%; */
+}
+
+.tituloInfo {
+  font-size: 20px;
+  /* padding: 0px 10px 10px 10px; */
+  font-weight: bold;
+  /* background: #4fc3dc; */
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoInformacion {
+  display: flex;
+  /* background: #4fc3dc; */
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentInstituciones {
+  /* background-color: rgba(115, 115, 115, 0.576); */
+  border: 3px solid rgb(42, 41, 45);
+  border-radius: 12px;
+  padding: 5px 10px;
+  width: 90%;
+  font-size: 15px;
+  color: white;
+  /* cursor: pointer; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.contentFotoFormacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoFromacion {
+  width: auto;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.infoFormacion {
+  display: flex;
+  /* background: #4fc3dc; */
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (width <= 1024px) {
+  .Formacion {
+    grid-area: Formacion;
+    margin-top: 40px;
+    /* background: green; */
+    /* width: 90%; */
+    height: 100%;
+  }
+  .contenedorFormacion{
+    /* background: #4fc3dc; */
+    /* display: flex; */
+    width: 98%;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+}

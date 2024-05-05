@@ -1,0 +1,189 @@
+
+.Proyecto {
+    grid-area: Proyecto;
+    overflow-y: auto;
+    max-height: 800px;
+    display: flex;
+    width: 100%;
+    background: green;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+  }
+  .Proyecto::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .Proyecto::-webkit-scrollbar-track {
+    background-color: rgba(80, 80, 80, 0.707);
+    border-radius: 5px;
+  }
+  
+  .Proyecto::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.707);
+    border-radius: 5px;
+  }
+  
+  .Proyecto::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.707);
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.707);
+    border-radius: 16px;
+    border: 3px solid rgb(42, 41, 45);
+    padding: 13px;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /* background: green; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tituloProyecto {
+    font-size: 25px;
+    padding: 0px 10px 10px 10px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  
+  .accionesCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .contentActivoPoryecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    background: rgba(99, 99, 99, 0.632);
+    border: 3px solid rgb(99, 99, 99);
+    border-radius: 12px;
+    padding: 5px 10px;
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  .contenLinkPoryecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    width: fit-content;
+    background: rgba(99, 99, 99, 0.632);
+    border: 3px solid rgb(99, 99, 99);
+    border-radius: 12px;
+    padding: 15px;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .contenLinkPoryecto:hover {
+    background: rgba(0, 0, 0, 0.632);
+    border: 3px solid rgb(0, 0, 0);
+  }
+  
+  .contentTecPoryecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 0px 10px;
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  .html {
+    background: rgba(255, 136, 0, 0.632);
+    border: 3px solid rgb(255, 136, 0);
+  }
+  
+  .boostrap {
+    background: rgba(0, 38, 255, 0.632);
+    border: 3px solid rgb(0, 38, 255);
+  }
+  
+  .netcore {
+    background: rgba(98, 0, 255, 0.632);
+    border: 3px solid rgb(98, 0, 255);
+  }
+  
+  .jwt {
+    background: rgba(255, 247, 0, 0.632);
+    border: 3px solid rgb(255, 247, 0);
+  }
+  
+  .entity {
+    background: rgba(0, 255, 0, 0.632);
+    border: 3px solid rgb(0, 255, 0);
+  }
+  
+  .identity {
+    background: rgba(255, 0, 0, 0.632);
+    border: 3px solid rgb(255, 0, 0);
+  }
+  
+  .sql {
+    background: rgba(0, 238, 255, 0.632);
+    border: 3px solid rgb(0, 238, 255);
+    /* border: 3px solid rgb(99, 99, 99); */
+  }
+  .fotoProyecto {
+    width: auto;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    padding: 0px 10px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 5px;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    color: white;
+  }

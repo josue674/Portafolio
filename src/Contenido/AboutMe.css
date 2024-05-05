@@ -1,0 +1,40 @@
+.AboutMe {
+  grid-area: AboutMe;
+  /* background: gray; */
+}
+
+.contentInformacionAbout {
+  display: flex;
+  width: 100%;
+  /* background: #4fc3dc; */
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contenedorAbout {
+  max-width: 600px;
+  display: flex;
+  /* background: #ff2d75; */
+  gap: 10px;
+  flex-direction: column;
+}
+
+.tituloAboutMe{
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff2d75;
+}
+@media (width <= 1024px) {
+  .AboutMe {
+    padding: 10px;
+  }
+  .contenedorAbout {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}

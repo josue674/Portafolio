@@ -1,0 +1,105 @@
+.Menu {
+  grid-area: Menu;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+}
+
+.contetnMenu {
+  display: flex;
+  height: 100%;
+  /* background: rebeccapurple; */
+  width: 100%;
+  border-radius: 16px;
+  border: 3px solid rgb(42, 41, 45);
+}
+
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0px 10px;
+  transition: width 0.5s ease, filter 0.5s ease;
+  font-size: 20px;
+  position: relative;
+}
+
+.icono:hover {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  font-size: 25px;
+  transition: width 0.5s ease, filter 0.5s ease;
+  filter: contrast(120%);
+}
+
+.icono:not(:hover) {
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: width 0.5s ease, padding 0.5s ease;
+}
+
+.contentButtoContat {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  z-index: -1;
+  left: 20px;
+  gap: 15px;
+}
+
+.btnActionContat:hover {
+  background: rgba(0, 0, 0, 0.248);
+  border-radius: 12px;
+}
+
+.correoContact {
+  padding: 0px 10px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.icono:hover button {
+  opacity: 1;
+}
+
+.icono button {
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.5s ease;
+}
+
+.bgIcono1:hover {
+  background: rgba(79, 195, 220, 0.576);
+  border-radius: 12px;
+}
+.bgIcono2:hover {
+  background: rgb(255, 45, 117, 0.576);
+  border-radius: 12px;
+}
+.bgIcono3:hover {
+  background: rgb(79, 195, 220, 0.576);
+  border-radius: 12px;
+}
+.bgIcono4:hover {
+  background: rgba(255, 45, 117, 0.576);
+  border-radius: 12px;
+}
+.bgIcono5:hover {
+  background: rgb(79, 195, 220, 0.576);
+  border-radius: 12px;
+}
