@@ -67,7 +67,7 @@ function Contenido() {
   };
 
   const abrirPDF = () => {
-    const urlPDF = "https://ejemplo.com/ejemplo.pdf"; // URL del archivo PDF que quieres abrir en una nueva ventana
+    const urlPDF = "https://firebasestorage.googleapis.com/v0/b/portafolio-bbd37.appspot.com/o/WalterJosueAguirre_es.pdf?alt=media&token=3677487d-7ef8-4879-967f-d29491c2f370"; // URL del archivo PDF que quieres abrir en una nueva ventana
 
     window.open(urlPDF, "_blank"); // Abre el PDF en una nueva ventana del navegador
   };
